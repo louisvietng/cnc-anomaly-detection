@@ -3,6 +3,10 @@ data/raw/
 *.h5
 .DS_STORE
 
+# Ignore generated plots and results
+*.png
+results/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
